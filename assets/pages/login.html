@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
     <title>Colabora</title>
 
@@ -31,28 +31,26 @@
 
             <!-- header -->
             <header class="header-area col-lg-12 d-flex flex-grow-1 bg-transparent justify-content-center align-items-end">
-                <h1 class="welcome fw-semibold text-center lh-1">
-                    Vamos transformar a maneira como você organiza seu dinheiro!
+                <h1 class="welcome fw-semibold text-center lh-1">Crie a sua conta e comece a organizar suas finanças.
                 </h1>
             </header>
 
             <!-- main -->
             <main class="main-area row">
                 <picture class="col-lg-6 d-flex justify-content-center align-items-center">
-                    <img src="./assets/images/finance-leader.svg" id="svg" class="img-fluid" alt="">
+                    <img src="../images/register.svg" id="svg" class="img-fluid" alt="Imagem de registro">
                 </picture>
-                <section class="col-lg-6 d-flex flex-column justify-content-evenly align-items-center">
-                    <h3 class="section-info fw-semibold text-center">
-                        Precisamos de algumas informações para iniciarmos nossa jornada.
-                    </h3>
-                    <a href="./assets/pages/register.html" class="btn-gradient fw-semibold d-flex justify-content-center align-items-center">
-                        Cadastrar
-                    </a>
-                    <a href="./assets/pages/login.html" class="sign-in fs-4 fw-semibold text-center">Já sou cadastrado</a>
+                <section class="col-lg-6 d-flex">
+                    <h1 class="login-text fw-semibold">Login</h1>
+                    <section class="d-flex flex-column justify-content-center align-items-center">
+                        <form action="" method="" class="d-flex flex-column gap-5">
+                            <input type="email" id="login-email" name="user" placeholder="Usuário" required>
+                            <input type="password" id="login-password" name="password" placeholder="Senha" required>
+                        </form>
+                    </section>
                 </section>
             </main>
-            
-            <!-- footer -->
+
             <footer class="container bg-transparent">
                 <h5 class="footer-dev text-center">Desenvolvido por
                     <a href="https://github.com/offneves" target="_blank" class="dev">off.neves</a>.
@@ -60,10 +58,8 @@
             </footer>
 
         </div>
-        <!-- login container end -->
-
-    </div>
-    <!-- maind div end -->
+    
+    </div>    
 
 </body>
 </html>
