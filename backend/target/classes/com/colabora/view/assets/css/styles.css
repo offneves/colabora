@@ -1,0 +1,182 @@
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--bs-font-family);
+}
+
+:root {
+    --bs-font-family: 'Montserrat', sans-serif;
+    --bs-color-white: #FFFFFF;
+    --bs-color-purple: #71a5eb;
+    --bs-color-black: #000000;
+    --bs-color-off-white: #D5D5D5;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: linear-gradient(180deg, #3B4669, rgba(11, 14, 22, 0.9));
+    backdrop-filter: blur(20px);
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 88vh;
+}
+
+footer {
+    height: 2vh;
+}
+
+/* fim universal */
+
+/* welcome */
+
+.welcome {
+    color: var(--bs-color-white);
+}
+
+.section-info {
+    color: var(--bs-color-white);
+}
+
+.btn-gradient {
+    width: 30rem;
+    height: 4.5rem;
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: var(--bs-color-white);
+    background: linear-gradient(45deg, #00ECD8, #00CCE2);
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.btn-gradient:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.sign-in {
+    color: var(--bs-color-purple);
+    text-decoration: none;
+}
+
+.sign-in:hover {
+    cursor: pointer;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.dev {
+    text-decoration: none;
+    color: #3B4669;
+}
+
+.footer-dev {
+    color: var(--bs-color-off-white);
+    font-size: 1rem;
+}
+
+/* fim welcome */
+
+/* register */
+
+h2 {
+    margin-bottom: 0;
+}
+
+.btn-register {
+    width: 30rem;
+    height: 4.5rem;
+    font-size: 1.75rem;
+    color: var(--bs-color-black);
+    background: #FFFFFF;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.btn-register:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.svg-register {
+    fill: var(--bs-color-black);
+}
+
+.icon {
+    height: 2rem;
+}
+
+/* fim register */
+
+/* login */
+
+.login-text {
+    color: var(--bs-color-white);
+    font-size: 3rem;
+    padding-top: 10rem;
+}
+
+#login-email {
+    width: 30rem;
+    height: 4.5rem;
+    border: solid 3px #00ECD8;
+    border-radius: 1.5rem;
+    text-indent: 1rem;
+}
+
+#login-password {
+    width: 30rem;
+    height: 4.5rem;
+    border: solid 3px #00ECD8;
+    border-radius: 1.5rem;
+    text-indent: 1rem;
+}
+
+::placeholder {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--bs-color-off-white);
+}
+
+/* fim login */
+
+@media (min-width: 992px){
+
+    body {
+        background-image: url("../images/bg.png");
+    }
+
+    .login-area {
+        width: 100vh;
+        box-shadow:  0px 7px 29px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 1.2rem;
+        padding: 1rem 3rem;
+        background: linear-gradient(180deg, #3B4669, rgba(11, 14, 22, 0.9));
+    }
+    .main-area {
+        height: 50vh;
+    }
+
+    .header-area {
+        padding-bottom: 2rem;
+    }
+
+    #svg {
+        height: 40vh;
+    }
+
+}
